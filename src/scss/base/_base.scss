@@ -1,5 +1,6 @@
 html {
   background-color: var(--primary-Pale-blue);
+  padding: 1rem;
 }
 
 html,
@@ -7,12 +8,12 @@ body {
   font-family: var(--font-Red-Hat-Display);
   width: 100vw;
   height: 100vh;
-  background-image: url('../../images/pattern-background-mobile.svg');
+  background-image: url('../../../public/images/pattern-background-mobile.svg');
   background-repeat: no-repeat;
   object-fit: cover;
   background-position: top;
   background-attachment: fixed;
   @media (min-width: 395px) {
-    background-image: url('../../images/pattern-background-desktop.svg');
+    background-image: url('../../../public/images/pattern-background-desktop.svg');
   }
 }

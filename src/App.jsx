@@ -1,6 +1,6 @@
 import './app.scss';
-import imageHero from './images/illustration-hero.svg';
-import imageIconMusic from './images/icon-music.svg';
+import imageHero from './../public/images/illustration-hero.svg';
+import imageIconMusic from './../public/images/icon-music.svg';
 
 function App() {
   return (
