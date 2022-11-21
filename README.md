@@ -1,5 +1,7 @@
 # Frontend Mentor - Order summary card
 
+[visit the site](https://gabrielcarrenio.github.io/order-summary-component-main/)
+
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
