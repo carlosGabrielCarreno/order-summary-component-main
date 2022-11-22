@@ -1,0 +1,14 @@
+.containerSocialMedia {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.containerSocialMedia span {
+  color: var(--neutral-Dark-blue);
+  cursor: pointer;
+  &:hover {
+    color: var(--primary-Bright-blue);
+  }
+}
