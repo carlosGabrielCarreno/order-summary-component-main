@@ -3,18 +3,14 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import './socialMedia.scss';
 
 export const SocialMedia = () => {
-  const onClickLinkedin = (event) => {
-    event.preventDefault();
-  };
-
   return (
     <div className="containerSocialMedia">
-      <span>
+      <a href="https://github.com/gabrielCarrenio" target="_blank">
         <GitHubIcon />
-      </span>
-      <span>
+      </a>
+      <a href="https://www.linkedin.com/in/gabrielcarrenio/" target="_blank">
         <LinkedInIcon />
-      </span>
+      </a>
     </div>
   );
 };
