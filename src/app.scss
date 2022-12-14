@@ -1,11 +1,14 @@
 .app {
-  width: 340px;
-  margin: 1rem auto;
+  width: 400px;
   border-radius: 0.5rem;
   background-color: var(--neutral-Very-pale-blue);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
   font-size: 16px;
   height: 100%;
+  margin-bottom: 0.5rem;
+  @media (max-width: 405px) {
+    width: 340px;
+  }
 }
 
 .containerData {
@@ -45,7 +48,7 @@
 .containerPlan {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: inherit;
   gap: 2rem;
 }
 
