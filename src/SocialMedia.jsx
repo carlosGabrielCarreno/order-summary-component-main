@@ -5,10 +5,10 @@ import './socialMedia.scss';
 export const SocialMedia = () => {
   return (
     <div className="containerSocialMedia">
-      <a href="https://github.com/gabrielCarrenio" target="_blank">
+      <a href="https://github.com/CarlosGabrielCarreno" target="_blank">
         <GitHubIcon />
       </a>
-      <a href="https://www.linkedin.com/in/gabrielcarrenio/" target="_blank">
+      <a href="https://www.linkedin.com/in/carlosgabrielcarreno/" target="_blank">
         <LinkedInIcon />
       </a>
     </div>
